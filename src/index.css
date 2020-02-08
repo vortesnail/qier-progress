@@ -1,0 +1,38 @@
+/* Make clicks pass-through */
+#qprogress {
+  pointer-events: none;
+}
+
+#qprogress .bar {
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+/* Fancy blur effect */
+#qprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  opacity: 1.0;
+
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+          transform: rotate(3deg) translate(0px, -4px);
+}
+
+.qprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.qprogress-custom-parent #qprogress .bar {
+  position: absolute;
+}
+

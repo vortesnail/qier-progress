@@ -2,5 +2,19 @@
   "extends": [
     "tslint-config-standard",
     "tslint-config-prettier"
-  ]
+  ],
+  "rules": {
+    "no-var-keyword": true,
+    "ban-comma-operator": true,
+    "newline-before-return": false,
+    "no-unused-expression": false,
+    "whitespace": [
+      true,
+      "check-separator"
+    ],
+    "semicolon": [
+      false,
+      "always"
+    ]
+  }
 }
