@@ -14,13 +14,14 @@ import {
   barPositionCSS,
   remove
 } from './helpers'
+import './index.css'
 
 /********************************************************
- *  Usage:                                               *
- *    const qprogress = new QProgress({ minimum: 0.1 })  *
- *    qprogress.start()                                  *
- *    // some code...                                    *
- *    qprogress.finish()                               *
+ *  Usage:                                              *
+ *    const qprogress = new QProgress({ minimum: 0.1 }) *
+ *    qprogress.start()                                 *
+ *    // some code...                                   *
+ *    qprogress.finish()                                *
  ********************************************************/
 
 class QProgress {

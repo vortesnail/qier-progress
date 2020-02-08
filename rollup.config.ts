@@ -5,12 +5,17 @@ import camelCase from 'lodash.camelcase'
 import typescript from 'rollup-plugin-typescript2'
 import json from 'rollup-plugin-json'
 
+import postcss from "rollup-plugin-postcss"
+import nested from "postcss-nested"
+import cssnext from "postcss-cssnext"
+import cssnano from "cssnano"
+
 const pkg = require('./package.json')
 
-const libraryName = 'qier-progress'
+const libraryName = 'QProgress'
 
 export default {
-  input: `src/${libraryName}.ts`,
+  input: `src/index.ts`,
   output: [
     { file: pkg.main, name: camelCase(libraryName), format: 'umd', sourcemap: true },
     { file: pkg.module, format: 'es', sourcemap: true },
@@ -21,6 +26,11 @@ export default {
     include: 'src/**',
   },
   plugins: [
+    postcss({
+      extensions: ['.css'],
+      plugins: [nested(), cssnext({ warnForDuplicates: false }), cssnano()],
+      extract: false
+    }),
     // Allow json resolution
     json(),
     // Compile TypeScript files
