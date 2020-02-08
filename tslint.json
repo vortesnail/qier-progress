@@ -15,6 +15,9 @@
     "semicolon": [
       false,
       "always"
-    ]
+    ],
+    "no-empty": true,
+    "triple-equals": true,
+    "no-duplicate-imports": true
   }
 }
