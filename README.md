@@ -7,9 +7,10 @@
 <h1 align="center">Slim progress bars for anywhere you want to use</h1>
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/react-loading)](https://www.npmjs.com/package/react-loadingg) [![](https://img.shields.io/github/license/sixiaodong123/react-loading)](https://github.com/sixiaodong123/react-loading/blob/master/LICENSE) [![](https://img.shields.io/npm/dm/react-loadingg)](https://www.npmjs.com/package/react-loadingg)
+[![npm version](https://img.shields.io/npm/v/qier-progress)](https://www.npmjs.com/package/qier-progress) [![LICENSE](https://img.shields.io/npm/l/qier-progress)](https://github.com/vortesnail/qier-progress/blob/master/LICENSE) 
+[![download](https://img.shields.io/npm/dw/qier-progress)](https://www.npmjs.com/package/qier-progress)
 
-[简体中文](www.baidu.com) &#124; English
+[简体中文](./READM-zh-CN.md) &#124; English
 
 </div>
 
@@ -17,7 +18,7 @@
 
 `qier-progress` is a progress bar. It can be used for some watting time like jump links, request data, and load or upload files and images to give us feedback and reduce our anxiety. Also if you have used [nprogress](https://github.com/rstacruz/nprogress), then you must know what I am talking about ~
 
-💃[check demo](http://www.baidu.com)
+💃[check demo]()
 
 ## Quick Start
 #### 🛠 Install
@@ -43,7 +44,7 @@ qprogress.finish()
 ```
 
 ## Advanced usage
-#### 📌 Set progress value
+#### 📌 Set progress value:
 Use `.set(n)` to set a progress percentage, where ![](https://cdn.nlark.com/yuque/__latex/7b8b965ad4bca0e41ab51de7b31363a1.svg#card=math&code=n&height=12&width=10) is a number between `0..1` .
 ```javascript
 qprogress.set(0.0)     // Same as .start()
@@ -51,27 +52,27 @@ qprogress.set(0.6)
 qprogress.set(1.0)     // Same as .done()
 ```
 
-#### 🎢 Increase manually: 
+#### 🎢 Increase manually:
 Use `.inc(n)` to increment the progress bar, but it will stop increasing after reaching the threshold, means it will never reach `100%` .
 ```javascript
 qprogress.inc()
 qprogress.inc(0.2)	// specific value you want
 ```
 
-#### 🥣 Forced finished: 
+#### 🥣 Forced finished:
 Use `.finish()` to unmount the progress var, of course, there will also have an end process animation.
 ```javascript
 qprogress.finish()
 ```
 
-#### 🧮 Get current progress value
+#### 🧮 Get current progress value:
 Use `.status` to get current value ![](https://cdn.nlark.com/yuque/__latex/7b8b965ad4bca0e41ab51de7b31363a1.svg#card=math&code=n&height=12&width=10) where is a number between `0..1` .
 ```javascript
 qprogress.status
 ```
 
 ## Configuration
-#### 🤔 How to customize？
+#### 🤔 How to customize
 When creating an instance, you can customize some parameters like this：
 ```javascript
 const qprogress = new QProgress({
@@ -104,5 +105,5 @@ First of all, I am a beginner of `typescript` . When I enjoy the convenience br
 ## About me
 [![Github.svg](https://cdn.nlark.com/yuque/0/2020/svg/341314/1581188387396-7788bf71-e189-4c34-bcaa-eaa5b0055497.svg#align=left&display=inline&height=24&name=Github.svg&originHeight=32&originWidth=32&size=2534&status=done&style=none&width=24)](https://github.com/vortesnail) [![juejin-02.svg](https://cdn.nlark.com/yuque/0/2020/svg/341314/1581188386963-d8bc6ee6-b3f4-47f8-b53c-5bd493c890b4.svg#align=left&display=inline&height=24&name=juejin-02.svg&originHeight=32&originWidth=32&size=884&status=done&style=none&width=24)](https://juejin.im/user/5da573d3f265da5b8a5168a6) [![哔哩哔哩.svg](https://cdn.nlark.com/yuque/0/2020/svg/341314/1581188388001-39360fed-b53a-47db-8b83-cff8126561da.svg#align=left&display=inline&height=24&name=%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.svg&originHeight=32&originWidth=32&size=6080&status=done&style=none&width=24)](https://space.bilibili.com/80755916) [![知乎.svg](https://cdn.nlark.com/yuque/0/2020/svg/341314/1581188354814-5e2956ab-2895-4f09-b788-7c5175160e41.svg#align=left&display=inline&height=24&name=%E7%9F%A5%E4%B9%8E.svg&originHeight=32&originWidth=32&size=2265&status=done&style=none&width=24)](https://www.zhihu.com/people/vortesnail)
 
-License
+## License
 [LICENSE](./LICENSE)
