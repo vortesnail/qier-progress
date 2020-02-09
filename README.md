@@ -7,8 +7,9 @@
 <h1 align="center">Slim progress bars for anywhere you want to use</h1>
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/qier-progress)](https://www.npmjs.com/package/qier-progress) [![LICENSE](https://img.shields.io/npm/l/qier-progress)](https://github.com/vortesnail/qier-progress/blob/master/LICENSE) 
-[![download](https://img.shields.io/npm/dw/qier-progress)](https://www.npmjs.com/package/qier-progress)
+[![npm version](https://img.shields.io/npm/v/qier-progress)](https://www.npmjs.com/package/qier-progress) [![package size](https://img.shields.io/bundlephobia/minzip/qier-progress)](https://www.npmjs.com/package/qier-progress) 
+[![download](https://img.shields.io/npm/dw/qier-progress)](https://www.npmjs.com/package/qier-progress) [![LICENSE](https://img.shields.io/npm/l/qier-progress)](https://github.com/vortesnail/qier-progress/blob/master/LICENSE) 
+
 
 [简体中文](./READM-zh-CN.md) &#124; English
 
@@ -18,7 +19,7 @@
 
 `qier-progress` is a progress bar. It can be used for some watting time like jump links, request data, and load or upload files and images to give us feedback and reduce our anxiety. Also if you have used [nprogress](https://github.com/rstacruz/nprogress), then you must know what I am talking about ~
 
-💃[check demo]()
+💃[check demo]() later...
 
 ## Quick Start
 #### 🛠 Install

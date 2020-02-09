@@ -7,8 +7,8 @@
 <h1 align="center">一个优美且简洁进度条显示工具</h1>
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/qier-progress)](https://www.npmjs.com/package/qier-progress) [![LICENSE](https://img.shields.io/npm/l/qier-progress)](https://github.com/vortesnail/qier-progress/blob/master/LICENSE) 
-[![download](https://img.shields.io/npm/dw/qier-progress)](https://www.npmjs.com/package/qier-progress)
+[![npm version](https://img.shields.io/npm/v/qier-progress)](https://www.npmjs.com/package/qier-progress) [![package size](https://img.shields.io/bundlephobia/minzip/qier-progress)](https://www.npmjs.com/package/qier-progress) 
+[![download](https://img.shields.io/npm/dw/qier-progress)](https://www.npmjs.com/package/qier-progress) [![LICENSE](https://img.shields.io/npm/l/qier-progress)](https://github.com/vortesnail/qier-progress/blob/master/LICENSE) 
 
 [English](./README.md) &#124; 简体中文
 
@@ -18,7 +18,7 @@
 
 `qier-progress` 用于缓解用户焦虑的进度条，它优美且简单，在你的网页发送请求或跳转网站的时候使用它吧！当然，还可以用于一些文件上传或加载场景。如果你知道 [nprogress](https://github.com/rstacruz/nprogress)，那你对这个插件就更不会陌生了。
 
-💃[check demo]()
+💃[check demo]() later...
 
 ## 基本使用
 #### 🛠 安装
