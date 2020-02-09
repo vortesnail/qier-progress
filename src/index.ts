@@ -31,9 +31,9 @@ class QProgress {
   // Last number
   public status: number | null = null
 
-  constructor(config: Configuration) {
+  constructor(config?: Configuration) {
     this.config = {
-      minimum: 0.08,
+      minimum: 0.12,
       height: 2,
       color: '#1890ff',
       colorful: false,
@@ -42,9 +42,9 @@ class QProgress {
       positionUsing: '',
       trickle: true,
       trickleSpeed: 400,
+      parentNode: 'body',
       barSelector: '[role="bar"]',
       pegSelector: '[role="peg"]',
-      parentNode: 'body',
       template: '<div class="bar" role="bar"><div class="peg" role="peg"></div></div>',
       ...config
     }
@@ -91,7 +91,7 @@ class QProgress {
 
         setTimeout(function() {
           css(progress, {
-            transition: 'all ' + speed + 'ms linear',
+            transition: `all ${speed}ms linear`,
             opacity: 0
           })
           setTimeout(function() {

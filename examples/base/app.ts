@@ -3,11 +3,6 @@ import QProgress from '../../src/index'
 const header = document.querySelector('.header')
 
 const qprogress: QProgress = new QProgress({
-  minimum: 0.1,
-  height: 2,
-  color: '#eb2f96',
-  colorful: true,
-  easing: 'ease',
   parentNode: header
 })
 
@@ -30,3 +25,7 @@ const doneBtn = document.querySelector('#done-btn')
 doneBtn.addEventListener('click', () => {
   qprogress.finish()
 })
+
+setTimeout(() => {
+console.log(qprogress.status)
+}, 1000);

@@ -136,17 +136,16 @@ export const queue = (function() {
 export function getPositioningCSS(): string {
   // Sniff on document.body.style
   const bodyStyle: CSSStyleDeclaration = document.body.style
-
   // Sniff prefixes
   const vendorPrefix =
-    'WebkitTransform' in bodyStyle
-      ? 'Webkit'
-      : 'MozTransform' in bodyStyle
-      ? 'Moz'
+    'webkitTransform' in bodyStyle
+      ? 'webkit'
+      : 'mozTransform' in bodyStyle
+      ? 'moz'
       : 'msTransform' in bodyStyle
       ? 'ms'
-      : 'OTransform' in bodyStyle
-      ? 'O'
+      : 'oTransform' in bodyStyle
+      ? 'o'
       : ''
 
   if (vendorPrefix + 'Perspective' in bodyStyle) {
