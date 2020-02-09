@@ -1,4 +1,8 @@
-# 0.0.0 (2020-02-08)
+# [1.0.0](https://github.com/vortesnail/qier-progress/compare/v0.0.2...v1.0.0) (2020-02-09)
+
+
+
+## [0.0.2](https://github.com/vortesnail/qier-progress/compare/9665671be92abbf2b26c4782a38f1183184ba292...v0.0.2) (2020-02-09)
 
 
 ### Features

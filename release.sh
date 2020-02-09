@@ -10,7 +10,8 @@ then
 
   # commit
   git add -A
-  git commit -m "[build] $VERSION"
+  # git commit -m "[build] $VERSION"
+  npm run commit
   npm version $VERSION --message "[release] $VERSION"
   git push origin master
 
