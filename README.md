@@ -75,7 +75,7 @@ qprogress.status
 When creating an instance, you can customize some parameters like this：
 ```javascript
 const qprogress = new QProgress({
-	minimum: 0.08,
+  minimum: 0.08,
   height: 3,
   color: '#17829f'
 })
@@ -92,7 +92,7 @@ const qprogress = new QProgress({
 | `speed` | Css transition property `duration` , unit is `ms` . | number | 400 |
 | `trickle` | Automatic incrementing behavior switch. | boolean | true |
 | `trickleSpeed` | Automatic incrementing speed, means increment interval, unit is ms . | number | 400 |
-| `parentNode` | Specify this to change the parent container. | Element | string | 'body' |
+| `parentNode` | Specify this to change the parent container. | Element &#124; string | 'body' |
 
 
 ## Contribution
@@ -103,3 +103,6 @@ First of all, I am a beginner of `typescript` . When I enjoy the convenience br
 
 ## About me
 [![Github.svg](https://cdn.nlark.com/yuque/0/2020/svg/341314/1581188387396-7788bf71-e189-4c34-bcaa-eaa5b0055497.svg#align=left&display=inline&height=24&name=Github.svg&originHeight=32&originWidth=32&size=2534&status=done&style=none&width=24)](https://github.com/vortesnail) [![juejin-02.svg](https://cdn.nlark.com/yuque/0/2020/svg/341314/1581188386963-d8bc6ee6-b3f4-47f8-b53c-5bd493c890b4.svg#align=left&display=inline&height=24&name=juejin-02.svg&originHeight=32&originWidth=32&size=884&status=done&style=none&width=24)](https://juejin.im/user/5da573d3f265da5b8a5168a6) [![哔哩哔哩.svg](https://cdn.nlark.com/yuque/0/2020/svg/341314/1581188388001-39360fed-b53a-47db-8b83-cff8126561da.svg#align=left&display=inline&height=24&name=%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.svg&originHeight=32&originWidth=32&size=6080&status=done&style=none&width=24)](https://space.bilibili.com/80755916) [![知乎.svg](https://cdn.nlark.com/yuque/0/2020/svg/341314/1581188354814-5e2956ab-2895-4f09-b788-7c5175160e41.svg#align=left&display=inline&height=24&name=%E7%9F%A5%E4%B9%8E.svg&originHeight=32&originWidth=32&size=2265&status=done&style=none&width=24)](https://www.zhihu.com/people/vortesnail)
+
+License
+[LICENSE](./LICENSE)
