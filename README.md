@@ -89,7 +89,7 @@ const qprogress = new QProgress({
 | `minimum` | Minimum percentage used upon starting. | number(0..1) | 0.12 |
 | `height` | Progress bar's height, unit is `px` . | number | 2 |
 | `color` | Progress bar's color, support RGB. | string | '#1890ff' |
-| `colorful` | Colorful mode switch. | boolean | false |
+| `colorful` | Colorful mode switch. | boolean | true |
 | `easing` | Css transition property `time-function` . | string | 'ease' |
 | `speed` | Css transition property `duration` , unit is `ms` . | number | 400 |
 | `trickle` | Automatic incrementing behavior switch. | boolean | true |

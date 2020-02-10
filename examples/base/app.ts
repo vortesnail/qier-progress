@@ -3,7 +3,8 @@ import QProgress from '../../src/index'
 const header = document.querySelector('.header')
 
 const qprogress: QProgress = new QProgress({
-  parentNode: header
+  // parentNode: header,
+  colorful: true
 })
 
 const startBtn = document.querySelector('#start-btn')

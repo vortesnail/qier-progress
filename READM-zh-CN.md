@@ -88,7 +88,7 @@ const qprogress = new QProgress({
 | `minimum` | 启动时使用的最小百分比。 | number(0..1) | 0.12 |
 | `height` |  进度条的高度，单位为 `px` 。 | number | 2 |
 | `color` | 进度条的颜色，支持RGB。 | string | '#1890ff' |
-| `colorful` | 是否彩色模式的开关。 | boolean | false |
+| `colorful` | 是否彩色模式的开关。 | boolean | true |
 | `easing` | Css transition 属性的 `time-function` 。 | string | 'ease' |
 | `speed` | Css transition 属性的 `duration` , 单位为 `ms` 。 | number | 400 |
 | `trickle` | 是否自动递增行为的开关。 | boolean | true |

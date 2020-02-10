@@ -36,7 +36,7 @@ class QProgress {
       minimum: 0.12,
       height: 2,
       color: '#1890ff',
-      colorful: false,
+      colorful: true,
       easing: 'ease',
       speed: 400,
       positionUsing: '',
@@ -228,15 +228,18 @@ class QProgress {
       transform: `translate3d(${perc}%, 0, 0)`
     })
 
+    if (!colorful) {
+      css(peg!, {
+        boxShadow: `0 0 10px ${color}, 0 0 5px ${color}`
+      })
+    } else {
+      console.log('bar')
+      console.log(bar)
+      bar && addClass(bar, 'colorful-bar')
+    }
+
     if (parent !== document.body) {
       addClass(parent, 'qprogress-custom-parent')
-      if (!colorful) {
-        css(peg!, {
-          boxShadow: `0 0 10px ${color}, 0 0 5px ${color}`
-        })
-      } else {
-        bar && addClass(bar, 'colorful-bar')
-      }
     }
 
     parent.appendChild(progress)
