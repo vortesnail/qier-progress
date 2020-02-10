@@ -19,7 +19,7 @@
 
 `qier-progress` is a progress bar. It can be used for some watting time like jump links, request data, and load or upload files and images to give us feedback and reduce our anxiety. Also if you have used [nprogress](https://github.com/rstacruz/nprogress), then you must know what I am talking about ~
 
-💃[check demo]() later...
+💃[check demo](https://vortesnail.github.io/qier-progress/)
 
 ## Quick Start
 #### 🛠 Install
