@@ -8,7 +8,7 @@
 <div align="center">
 
 [![npm version](https://img.shields.io/npm/v/qier-progress)](https://www.npmjs.com/package/qier-progress) [![package size](https://img.shields.io/bundlephobia/minzip/qier-progress)](https://www.npmjs.com/package/qier-progress) 
-[![download](https://img.shields.io/npm/dw/qier-progress)](https://www.npmjs.com/package/qier-progress) [![LICENSE](https://img.shields.io/npm/l/qier-progress)](https://github.com/vortesnail/qier-progress/blob/master/LICENSE) 
+[![download](https://img.shields.io/npm/dw/qier-progress)](https://www.npmjs.com/package/qier-progress) [![Build Status](https://travis-ci.org/vortesnail/qier-progress.svg?branch=master)](https://travis-ci.org/vortesnail/qier-progress) [![Coverage Status](https://coveralls.io/repos/github/vortesnail/qier-progress/badge.svg?branch=master)](https://coveralls.io/github/vortesnail/qier-progress?branch=master) [![LICENSE](https://img.shields.io/npm/l/qier-progress)](https://github.com/vortesnail/qier-progress/blob/master/LICENSE) 
 
 [English](./README.md) &#124; 简体中文
 
