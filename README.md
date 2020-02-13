@@ -93,7 +93,7 @@ const qprogress = new QProgress({
 | `easing` | Css transition property `time-function` . | string | 'ease' |
 | `speed` | Css transition property `duration` , unit is `ms` . | number | 400 |
 | `trickle` | Automatic incrementing behavior switch. | boolean | true |
-| `trickleSpeed` | Automatic incrementing speed, means increment interval, unit is ms . | number | 400 |
+| `trickleSpeed` | Automatic incrementing speed, means increment interval, unit is `ms` . | number | 400 |
 | `parentNode` | Specify this to change the parent container. | Element &#124; string | 'body' |
 
 
