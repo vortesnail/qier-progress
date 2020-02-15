@@ -25,7 +25,6 @@ import './index.css'
  ********************************************************/
 
 class QProgress {
-  public version: string = '0.0.1'
   // Configuration
   private config: Configuration
   // Last number
