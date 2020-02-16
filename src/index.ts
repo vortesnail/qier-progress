@@ -232,8 +232,6 @@ class QProgress {
         boxShadow: `0 0 10px ${color}, 0 0 5px ${color}`
       })
     } else {
-      console.log('bar')
-      console.log(bar)
       bar && addClass(bar, 'colorful-bar')
     }
 
