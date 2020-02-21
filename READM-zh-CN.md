@@ -47,9 +47,9 @@ qprogress.finish()
 #### 📌 设定当前进度条位置：
 使用`.set(n)` 进行设置 ![](https://cdn.nlark.com/yuque/__latex/7b8b965ad4bca0e41ab51de7b31363a1.svg#card=math&code=n&height=12&width=10) 的值在 `0..1` 之间。
 ```javascript
-qprogress.set(0.0)     // Same as .start()
+qprogress.set(0.0)     // same as .start()
 qprogress.set(0.6)
-qprogress.set(1.0)     // Same as .done()
+qprogress.set(1.0)     // same as .finish()
 ```
 
 #### 🎢 自定义快进：

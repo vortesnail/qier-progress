@@ -48,9 +48,9 @@ qprogress.finish()
 #### 📌 Set progress value:
 Use `.set(n)` to set a progress percentage, where ![](https://cdn.nlark.com/yuque/__latex/7b8b965ad4bca0e41ab51de7b31363a1.svg#card=math&code=n&height=12&width=10) is a number between `0..1` .
 ```javascript
-qprogress.set(0.0)     // Same as .start()
+qprogress.set(0.0)     // same as .start()
 qprogress.set(0.6)
-qprogress.set(1.0)     // Same as .done()
+qprogress.set(1.0)     // same as .finish()
 ```
 
 #### 🎢 Increase manually:
