@@ -14,7 +14,7 @@
 
 </div>
 
-## Introduction
+## 介绍
 
 `qier-progress` 用于缓解用户焦虑的进度条，它优美且简单，在你的网页发送请求或跳转网站的时候使用它吧！当然，还可以用于一些文件上传或加载场景。如果你知道 [nprogress](https://github.com/rstacruz/nprogress)，那你对这个插件就更不会陌生了。
 
