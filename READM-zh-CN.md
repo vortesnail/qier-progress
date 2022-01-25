@@ -99,7 +99,7 @@ const qprogress = new QProgress({
 ## 参与贡献
 非常欢迎各位参与此项目，你可以对代码进行改进，功能的增加或者最主要的，添加测试！在此之前请仔细阅读 [CONTRIBUTING](ssd) 。
 
-## Inspiration and purpose
+## 灵感
 这个项目最直接的灵感就是 [nprogress](https://github.com/rstacruz/nprogress), 参照了大量其源码，并决定用 `typescript` 进行重构，并增加了一些其他的特性。非常感谢 [nprogress 的贡献者们](https://github.com/rstacruz/nprogress/graphs/contributors) 给予我一个学习的机会～
 
 ## 关于我
