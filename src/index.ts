@@ -70,7 +70,7 @@ class QProgress {
     const speed: number = speedCopy!
     const ease: string = easing!
 
-    progress.offsetWidth /* Compulsory repainting */
+    void progress.offsetWidth /* Compulsory repainting */
 
     queue(function(next: Function) {
       // Set positionUsing if it hasn't already been set
@@ -86,7 +86,7 @@ class QProgress {
           opacity: 1
         })
 
-        progress.offsetWidth /* Compulsory repainting */
+        void progress.offsetWidth /* Compulsory repainting */
 
         setTimeout(function() {
           css(progress, {
